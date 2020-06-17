@@ -2,18 +2,25 @@
   "core": {
     "workingDir": ".reg",
     "actualDir": "screenshot",
+    "thresholdRate": 0,
     "threshold": 0,
     "ximgdiff": {
       "invocationType": "client"
     }
   },
   "plugins": {
-    "reg-keygen-git-hash-plugin": true,
+    "reg-keygen-git-hash-plugin": {},
     "reg-notify-github-plugin": {
-      "clientId": "MzQ0tDAzNzIz0S9KTdctKC0oSC1JTS3STUnNzdc3MTA0gkiUZVYBAA=="
+      "clientId": "MzI3sjCxNDUw1C9KTdctLs0s0U1Jzc031Lc0twTKGOmXJGYnZmSmlxobGQEA"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "reg-publish-bucket-2c260973-434b-4cc9-8e17-a14e72fd062c"
+      "bucketName": "reg-publish-bucket-893e6431-f430-4e17-8597-757071074dd1"
+    },
+    "reg-notify-slack-plugin": {
+      "webhookUrl": "https://hooks.slack.com/services/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"
+    },
+    "reg-publish-gcs-plugin": {
+      "bucketName": ""
     }
   }
 }
