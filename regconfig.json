@@ -14,10 +14,10 @@
       "clientId": "MzI3sjCxNDUw1C9KTdctLs0s0U1Jzc031Lc0twTKGOmXJGYnZmSmlxobGQEA"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "reg-publish-bucket-893e6431-f430-4e17-8597-757071074dd1"
+      "bucketName": "your_s3_bucket_name"
     },
     "reg-notify-slack-plugin": {
-      "webhookUrl": "https://hooks.slack.com/services/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"
+      "webhookUrl": "https://hooks.slack.com/services/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"
     },
     "reg-publish-gcs-plugin": {
       "bucketName": ""
