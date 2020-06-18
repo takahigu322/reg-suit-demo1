@@ -17,10 +17,16 @@
       "bucketName": "your_s3_bucket_name"
     },
     "reg-notify-slack-plugin": {
-      "webhookUrl": "https://hooks.slack.com/services/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"
+      "webhookUrl": "https://hooks.slack.com/services/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"
     },
     "reg-publish-gcs-plugin": {
       "bucketName": ""
+    },
+    "reg-notify-github-with-api-plugin": {
+      "githubUrl": "https://github.com",
+      "owner": "takahigu322",
+      "repository": "reg-suit-demo1",
+      "privateToken": "f4f7ba2d337f04905c899ff8b612549fafefe644"
     }
   }
 }
